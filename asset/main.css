@@ -1,0 +1,188 @@
+html{
+	box-sizing:border-box
+}
+*,*:before,
+*:after{
+	box-sizing:inherit
+}
+
+
+
+/* End extract */
+html,
+body{
+	font-family:Verdana,sans-serif;
+	font-size:15px;line-height:1.5
+}
+html{
+	overflow-x:hidden
+	}
+h1{
+	font-size:36px
+}
+h2{
+	font-size:30px
+}
+h3{
+	font-size:24px
+}
+h4{
+	font-size:20px
+}
+h5{
+	font-size:18px
+}
+h6{
+	font-size:16px
+}
+.serif{
+	font-family:serif
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight:400;
+	margin:10px 0
+}
+.wide{
+	letter-spacing:4px
+}
+hr{
+	border:0;
+	border-top:1px solid #eee;
+	margin:20px 0
+}
+.image{
+	max-width:100%;
+	height:auto
+}
+img{
+	vertical-align:middle
+}
+a{
+	color:inherit
+}
+
+.tag{
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center
+}
+.display-container{
+	position:relative
+}
+.text{
+	display:none
+} 
+.text{
+	display:inline-block
+}
+
+
+
+.container:after,.container:before,.panel:after,.panel:before,.row:after,.row:before,.row-padding:after,.row-padding:before,
+.cell-row:before,.cell-row:after,.clear:after,.clear:before,.bar:before,.bar:after{content:"";display:table;clear:both}
+.col,.half,.third,.twothird,.threequarter,.quarter{float:left;width:100%}
+
+@media (min-width:601px){.col.m1{width:8.33333%}.col.m2{width:16.66666%}.col.m3,.quarter{width:24.99999%}.col.m4,.third{width:33.33333%}
+
+.col.m5{width:41.66666%}.col.m6,.half{width:49.99999%}.col.m7{width:58.33333%}.col.m8,.twothird{width:66.66666%}
+
+
+.content{
+	max-width:980px;
+	margin:auto
+}
+
+
+.top,.bottom{position:fixed;width:100%;z-index:1}.top{top:0}.bottom{bottom:0}
+.display-topleft{position:absolute;left:0;top:0}.display-topright{position:absolute;right:0;top:0}
+.display-bottomleft{position:absolute;left:0;bottom:0}.display-bottomright{position:absolute;right:0;bottom:0}
+.display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.display-container:hover .display-hover{display:block}.display-container:hover span.display-hover{display:inline-block}.display-hover{display:none}
+.display-position{position:absolute}
+
+.round-small{border-radius:2px}.round,.round-medium{border-radius:4px}.round-large{border-radius:8px}.round-xlarge{border-radius:16px}.round-xxlarge{border-radius:32px}
+
+
+.row-padding,.row-padding>.half,.row-padding>.third,.row-padding>.twothird,.row-padding>.threequarter,.row-padding>.quarter,.row-padding>.col{padding:0 8px}
+
+
+.container,.panel{padding:0.01em 16px}.panel{margin-top:16px;margin-bottom:16px}
+
+
+.hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+
+.opacity,.hover-opacity:hover{opacity:0.60}.opacity-off,.hover-opacity-off:hover{opacity:1}
+
+.tiny{font-size:10px!important}.small{font-size:12px!important}.medium{font-size:15px!important}.large{font-size:18px!important}
+
+.xlarge{font-size:24px!important}.xxlarge{font-size:36px!important}
+
+.center{text-align:center!important}
+
+
+.margin{
+	margin:16px!important
+}
+.margin-top{
+	margin-top:16px!important
+}
+.margin-bottom{
+	margin-bottom:16px!important
+}
+
+
+.margin-left{
+	margin-left:16px!important
+}
+.margin-right{
+	margin-right:16px!important
+}
+
+
+
+.padding-16{
+	padding-top:16px!important;
+	padding-bottom:16px!important
+}
+.padding-24{
+	padding-top:24px!important;
+	padding-bottom:24px!important
+}
+
+
+
+
+/* Colors */
+
+.teal,
+.hover-teal:hover{
+	color:#fff!important;
+	background-color:#009688!important
+}
+.white,
+.hover-white:hover{
+	color:#000!important;
+	background-color:#fff!important
+}
+.grey,
+.hover-grey:hover{
+	color:#000!important;
+	background-color:#9e9e9e!important
+}
+.light-grey,
+.hover-light-grey:hover{
+	color:#000!important;
+	background-color:#f1f1f1!important
+}
+.text-teal,
+.hover-text-teal:hover{
+	color:#009688!important
+}
